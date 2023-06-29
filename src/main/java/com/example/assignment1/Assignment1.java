@@ -49,13 +49,7 @@ public class Assignment1 extends Application {
                 "\nscreen, and unleash a barrage of metal balls to break through mesmerizing glass structures." +
                 "\nWith the camera propelling you forward, every shot counts as you face a moving target in a" +
                 "\nstunning 3D world." +
-
-              "\n\nYour objective is clear: demolish obstacles and advance through the game. Some targets" +
-                "\ngrant you additional balls upon impact, while others test your precision and timing. Be" +
-                "\ncareful though, as hitting obstacles without destroying them will cost you precious balls." +
-                "\nManage your limited ammunition wisely, as running out means game over." +
-
-              "\n\nAre you ready to showcase your aiming skills, overcome challenges, and dominate the" +
+                "\n\nAre you ready to showcase your aiming skills, overcome challenges, and dominate the" +
                 "\nleaderboard? Dive into the addictive gameplay of Smash Hit and unleash the power within" +
                 "\nyou!\n");
 
@@ -68,8 +62,8 @@ public class Assignment1 extends Application {
         playButton.setStyle("-fx-pref-width: 120px; -fx-pref-height: 40px;"); // Set the size of the button
 
         VBox messageBox = new VBox(10); // Set the spacing between the heading and message
-        messageBox.setAlignment(Pos.CENTER_LEFT);
-        messageBox.setPadding(new Insets(150,0,0,35));
+        messageBox.setAlignment(Pos.CENTER);
+        messageBox.setPadding(new Insets(100,0,0,35));
         messageBox.setSpacing(10);
         messageBox.getChildren().addAll(headingText, messageText, playButton );
 
